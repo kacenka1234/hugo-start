@@ -2,13 +2,13 @@
 <html lang="cs-cz">
 <head>
   <meta charset="utf-8">
-  <title>?ist? vzduch</title>
+  <title>Čistý vzduch</title>
   <link rel="stylesheet" href="/hugo-start/css/style.css">
 </head>
 <body>
   <div class="wrapper">
     <header>
-      <h1><a href="/hugo-start/">?ist? vzduch</a></h1>
+      <h1><a href="/hugo-start/">Čistý vzduch</a></h1>
       <p class="description">Description of my new site.</p>
     </header>
 
@@ -17,6 +17,23 @@
   <h1>Hugo</h1>
 
   
+    <article class="preview">
+      <h2><a href="/hugo-start/post/macocha/">Macocha</a></h2>
+      <p class="date">May 2, 2018</p>
+      <p>Jak se sem dostanu? Nejsnazší je dojet k Macoše autem. Poblíž Horního můstku se nachází několik prostorných parkovišť. Odtud lze dojít ke vstupu do jeskyně pěšky nebo můžete využít lanovku.
+Obrázek- C:\Nami\hugo-start\content\post\Macocha\lanovka.jpg
+Pokud pojedete autobusem doporučuji zastávku ve Vilémovicích – Vilémovice, Macocha rozc. 2.0 nebo v Blansku – Blansko, Skalní Mlýn. Dobře si ale prohlédněte jízdní řád. Autobusy sem nezajíždí zrovna často. Ze zastávky Skalní Mlýn lze využít dopravu turistickým vláčkem až ke vstupu do jeskyně.</p>
+    
+    <article class="preview">
+      <h2><a href="/hugo-start/post/macocha/">Moravský kras – Macocha</a></h2>
+      <p class="date">May 2, 2018</p>
+      <p>Jak se sem dostanu? Nejsnazší je dojet k Macoše autem. Poblíž Horního můstku se nachází několik prostorných parkovišť. Odtud lze dojít ke vstupu do jeskyně pěšky nebo můžete využít lanovku.
+{{ with .Resources.ByType &ldquo;lanovka&rdquo; }}
+{{ with .Resources.jpg &ldquo;lanovka.jpg&rdquo; }} {{ end }}
+picture
+Obrázek- C:\Users\Katka\Desktop\článek\lanovka.jpg
+Pokud pojedete autobusem doporučuji zastávku ve Vilémovicích – Vilémovice, Macocha rozc. 2.0 nebo v Blansku – Blansko, Skalní Mlýn. Dobře si ale prohlédněte jízdní řád.</p>
+    
     <article class="preview">
       <h2><a href="/hugo-start/post/welcome-to-hugo/">Welcome to Hugo!</a></h2>
       <p class="date">March 13, 2018</p>

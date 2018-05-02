@@ -1,53 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on ?ist? vzduch</title>
-    <link>http://jan-martinek.github.io/hugo-start/</link>
-    <description>Recent content in Home on ?ist? vzduch</description>
+    <title>Home on Čistý vzduch</title>
+    <link>https://msvehlova.github.io/hugo-start/</link>
+    <description>Recent content in Home on Čistý vzduch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cs-cz</language>
-    <lastBuildDate>Mon, 02 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://jan-martinek.github.io/hugo-start/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://msvehlova.github.io/hugo-start/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Macocha</title>
+      <link>https://msvehlova.github.io/hugo-start/post/macocha/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://msvehlova.github.io/hugo-start/post/macocha/</guid>
+      <description>Jak se sem dostanu? Nejsnazší je dojet k Macoše autem. Poblíž Horního můstku se nachází několik prostorných parkovišť. Odtud lze dojít ke vstupu do jeskyně pěšky nebo můžete využít lanovku.
+Obrázek- C:\Nami\hugo-start\content\post\Macocha\lanovka.jpg
+Pokud pojedete autobusem doporučuji zastávku ve Vilémovicích – Vilémovice, Macocha rozc. 2.0 nebo v Blansku – Blansko, Skalní Mlýn. Dobře si ale prohlédněte jízdní řád. Autobusy sem nezajíždí zrovna často. Ze zastávky Skalní Mlýn lze využít dopravu turistickým vláčkem až ke vstupu do jeskyně.</description>
+    </item>
+    
+    <item>
+      <title>Moravský kras – Macocha</title>
+      <link>https://msvehlova.github.io/hugo-start/post/macocha/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://msvehlova.github.io/hugo-start/post/macocha/</guid>
+      <description>Jak se sem dostanu? Nejsnazší je dojet k Macoše autem. Poblíž Horního můstku se nachází několik prostorných parkovišť. Odtud lze dojít ke vstupu do jeskyně pěšky nebo můžete využít lanovku.
+{{ with .Resources.ByType &amp;ldquo;lanovka&amp;rdquo; }}
+{{ with .Resources.jpg &amp;ldquo;lanovka.jpg&amp;rdquo; }} {{ end }}
+picture
+Obrázek- C:\Users\Katka\Desktop\článek\lanovka.jpg
+Pokud pojedete autobusem doporučuji zastávku ve Vilémovicích – Vilémovice, Macocha rozc. 2.0 nebo v Blansku – Blansko, Skalní Mlýn. Dobře si ale prohlédněte jízdní řád.</description>
+    </item>
+    
+    <item>
       <title>O nás</title>
-      <link>http://jan-martinek.github.io/hugo-start/post/o-n%C3%A1s/</link>
+      <link>https://msvehlova.github.io/hugo-start/post/o-n%C3%A1s/</link>
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jan-martinek.github.io/hugo-start/post/o-n%C3%A1s/</guid>
+      <guid>https://msvehlova.github.io/hugo-start/post/o-n%C3%A1s/</guid>
       <description>Jsme tři studentky KISKu a tohle je náš skupinový projekt.
 Jsem Kateřina. Je mi 23. Pocházím z východních Čech, rodiče bydlí nedaleko Orlických hor. Nyní bydlím v Brně Králově poli. Tuto lokalitu jsme s přítelem zvolili, protože je blízko přírody i centra zároveň. Co pro mne příroda znamená? Možnost pořádně se nadechnout. Často chodím na kratší procházky po okolí. Když je ale více času volím i trasy delší. Za svůj největší úspěch považuji přejití celé Šumavy od východu na západ.</description>
     </item>
     
     <item>
-      <title>All albums of The Beatles</title>
-      <link>http://jan-martinek.github.io/hugo-start/post/another-post/</link>
+      <title>Nic</title>
+      <link>https://msvehlova.github.io/hugo-start/post/another-post/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jan-martinek.github.io/hugo-start/post/another-post/</guid>
-      <description>&lt;p&gt;This is just another post. And it illustrates a mighty functionality.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://msvehlova.github.io/hugo-start/post/another-post/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Welcome to Hugo!</title>
-      <link>http://jan-martinek.github.io/hugo-start/post/welcome-to-hugo/</link>
+      <link>https://msvehlova.github.io/hugo-start/post/welcome-to-hugo/</link>
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jan-martinek.github.io/hugo-start/post/welcome-to-hugo/</guid>
+      <guid>https://msvehlova.github.io/hugo-start/post/welcome-to-hugo/</guid>
       <description>You’ll find this post in your content/post directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run command hugo server, which launches a web server and auto-regenerates your site when a file is updated.
 To add new posts, simply add a file in the content/post directory that follows the convention name-of-post.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://jan-martinek.github.io/hugo-start/o-projektu/</link>
+      <link>https://msvehlova.github.io/hugo-start/o-projektu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jan-martinek.github.io/hugo-start/o-projektu/</guid>
+      <guid>https://msvehlova.github.io/hugo-start/o-projektu/</guid>
       <description>Web „Čistý vzduch“ Pro cílovou skupinu 20 až 30 let
 Cílem našeho webu bude informovat návštěvníky o přírodě a cestě k ní. Budeme uvádět tipy kam do přírody vyrazit. Mezi destinacemi budou městské i zámecké parky, komunitní zahrady, národní parky, chráněné krajinné oblasti a další zajímavá místa. Krom konkrétních míst přidáme i tipy jak se do daných lokalit snadno dopravit.
 Jako webové zdroje nám mohou posloužit: • http://www.env.cz/cz/zvlaste_chranena_uzemi
