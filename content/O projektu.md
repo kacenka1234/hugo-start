@@ -6,7 +6,7 @@ menu:
 ---
 ## Web „Čistý vzduch“ 
 
-Pro cílovou skupinu 20 až 30 let
+Pro cílovou skupinu 20 - 30 let
 
 **Cílem** našeho webu bude informovat návštěvníky o přírodě a cestě k ní. Budeme uvádět tipy kam do přírody vyrazit. Mezi destinacemi budou městské i zámecké parky, komunitní zahrady, národní parky, chráněné krajinné oblasti a další zajímavá místa. Krom konkrétních míst přidáme i tipy jak se do daných lokalit snadno dopravit.
 
